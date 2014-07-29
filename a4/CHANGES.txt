@@ -1,0 +1,10 @@
+Changes 
+------------------
+
+1. Added new table event where schema is event(campaign,name,note)
+	note: use note to insert important info
+
+2. Added new columns to members
+	note: for the membership history purpose, added annotation and duration and donation column to member
+3. Added annotation to campaign
+	note: for history purpose

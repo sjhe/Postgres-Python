@@ -1,0 +1,22 @@
+Phase 5:
+
+
+Functions:
+
+1.Delete
+----------------------------
+There are 3 options:
+	1.Delete Members using member sin
+	2.Delete Volunteers using volunteer sin 
+	3.Delete Campaigns using name 
+
+2.Modify
+---------------------------
+There are 4 options:
+	1.Change Memember
+	2.adding campaign Info
+	3.Update Member info
+	
+	
+
+
