@@ -286,7 +286,6 @@ def phase2(cursor,dbconn):
 		
 		for row in cursor.fetchall():
 			print "------%s------|---------%s---------|-----%s-----|"% (row[0],row[1],row[2]) 
-		return
 		
 	if num == '5':
 		print "Back to Home Page"
@@ -329,7 +328,7 @@ def phase3(cursor):
 			print ""+"#"*(int(f*20)+1 ) + "\n"+" \t\t\t\t      Donation:"+str(row[1])+"    name :"+ row[0]+"\n"
 
 		print
-		return
+	
 	if i == '2':	
 		print" You have selected 2!"
 		print" Here is the Flow Out Information:"
@@ -349,7 +348,6 @@ def phase3(cursor):
 			print ""+"#"*(int(g*20)+1 ) + "\n"+" \t\t\t\t      Cost:"+str(row[1])+"    subject :"+ row[0]+"     Campaign:"+row[2]+"\n"
 				
 		print 	
-		return
 	
 	if i == '3':
 		print "You have selected 3!"
@@ -369,8 +367,7 @@ def phase3(cursor):
 		info = cursor.fetchall()
 		for row in info:
 			cost = cost +row[1]
-		print "Balance: "+str(donnation -cost)
-		return		
+		print "Balance: "+str(donnation -cost)		
 	else:
 		print "Wrong Entry, Please Start Again!\n\n"
 		phase3(cursor)
